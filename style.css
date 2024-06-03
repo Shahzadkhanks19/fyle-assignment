@@ -1,0 +1,95 @@
+.card {
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image1 {
+  height: 357px;
+  width: 624px;
+}
+
+button {
+  border: none;
+  background-color: white;
+}
+
+.image2,
+.image3 {
+  display: none;
+}
+
+.active {
+  background-color: #d13c3c;
+  color: white;
+}
+
+.form-floating-label {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.form-floating-label input {
+  border: none;
+  border-bottom: 2px solid #dee2e6;
+  border-radius: 0;
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.form-floating-label input:focus {
+  border-bottom: 2px solid #495057;
+  box-shadow: none;
+  outline: none;
+}
+.form-floating-label input:focus + label,
+.form-floating-label input:not(:placeholder-shown) + label {
+  top: -0.75rem;
+  left: 0;
+  font-size: 0.75rem;
+  color: #495057;
+}
+.form-floating-label label {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  font-size: 1rem;
+  color: #6c757d;
+  transition: all 0.2s ease-in-out;
+  pointer-events: none;
+}
+.form-check-input:checked {
+  background-color: #dc3545 !important; /* Red color for checkbox */
+  border-color: #dc3545 !important;
+}
+
+/* Add red color and text on hover */
+.item:hover img {
+  filter: grayscale(0);
+  transition: all 0.3s;
+}
+.item:hover .overlay {
+  display: block;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d13c3c; /* Red color with opacity */
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.overlay p {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.footer {
+  background-image: url(/NoPath\ -\ Copy.svg);
+}
